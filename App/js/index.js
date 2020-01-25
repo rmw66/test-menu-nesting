@@ -19,7 +19,147 @@ xui.Class('App', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.MenuBar")
+                .setHost(host,"xui_ui_menubar2")
+                .setItems([
+                    {
+                        "id":"menu-docs",
+                        "sub":[
+                            {
+                                "id":"normal",
+                                "caption":"normal"
+                            },
+                            {
+                                "id":"disabled",
+                                "caption":"disabled",
+                                "disabled":true
+                            },
+                            {
+                                "id":"image",
+                                "caption":"image",
+                                "imageClass":"xui-icon-xui"
+                            },
+                            {
+                                "type":"split"
+                            },
+                            {
+                                "id":"checkbox 1",
+                                "caption":"checkbox 1",
+                                "type":"checkbox"
+                            },
+                            {
+                                "id":"checkbox 2",
+                                "caption":"checkbox 2",
+                                "type":"checkbox"
+                            }
+                        ],
+                        "caption":"Docs"
+                    },
+                    {
+                        "id":"menu-data",
+                        "sub":[
+                            {
+                                "id":"normal",
+                                "caption":"normal"
+                            },
+                            {
+                                "id":"disabled",
+                                "caption":"disabled",
+                                "disabled":true
+                            },
+                            {
+                                "id":"image",
+                                "caption":"image",
+                                "imageClass":"xui-icon-xui"
+                            },
+                            {
+                                "type":"split"
+                            },
+                            {
+                                "id":"checkbox 1",
+                                "caption":"checkbox 1",
+                                "type":"checkbox"
+                            },
+                            {
+                                "id":"checkbox 2",
+                                "caption":"checkbox 2",
+                                "type":"checkbox"
+                            }
+                        ],
+                        "caption":"Data"
+                    },
+                    {
+                        "id":"menu-previous",
+                        "sub":[
+                            {
+                                "id":"normal",
+                                "caption":"normal"
+                            },
+                            {
+                                "id":"disabled",
+                                "caption":"disabled",
+                                "disabled":true
+                            },
+                            {
+                                "id":"image",
+                                "caption":"image",
+                                "imageClass":"xui-icon-xui"
+                            },
+                            {
+                                "type":"split"
+                            },
+                            {
+                                "id":"checkbox 1",
+                                "caption":"checkbox 1",
+                                "type":"checkbox"
+                            },
+                            {
+                                "id":"checkbox 2",
+                                "caption":"checkbox 2",
+                                "type":"checkbox"
+                            }
+                        ],
+                        "caption":"Previous"
+                    },
+                    {
+                        "id":"menumanager",
+                        "sub":[
+                            {
+                                "id":"sub menu 1",
+                                "caption":"sub menu 1",
+                                "add":"[Ctrl+F]",
+                                "sub":[
+                                    {
+                                        "id":"sub 1",
+                                        "type":"radiobox"
+                                    },
+                                    {
+                                        "id":"sub 2",
+                                        "type":"radiobox"
+                                    },
+                                    {
+                                        "id":"sub 3"
+                                    }
+                                ]
+                            },
+                            {
+                                "id":"sub menu 2",
+                                "caption":"sub menu 2",
+                                "add":"[Ctrl+T]",
+                                "sub":[
+                                    "sub 3",
+                                    "sub 4"
+                                ]
+                            }
+                        ],
+                        "caption":"Manager"
+                    }
+                ])
+                .setTop("1.6666666666666667em")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
