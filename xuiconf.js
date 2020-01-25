@@ -11,7 +11,7 @@
 
 // [[Page Appearance
 xui.ini.$PageAppearance = {
-    "theme":"darkblue"
+    "theme":"moonify"
 };
 // ]]Page Appearance
 // To set Font Icons CDN
