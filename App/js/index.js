@@ -49,19 +49,6 @@ xui.Class('App', 'xui.Module',{
                                 "caption":"image",
                                 "imageClass":"xui-icon-xui",
                                 "disabled":true
-                            },
-                            {
-                                "type":"split"
-                            },
-                            {
-                                "id":"checkbox 1",
-                                "caption":"checkbox 1",
-                                "type":"checkbox"
-                            },
-                            {
-                                "id":"checkbox 2",
-                                "caption":"checkbox 2",
-                                "type":"checkbox"
                             }
                         ],
                         "caption":"Docs"
@@ -111,31 +98,24 @@ xui.Class('App', 'xui.Module',{
                         "id":"menu-previous",
                         "sub":[
                             {
-                                "id":"normal",
-                                "caption":"normal"
+                                "id":"fy19",
+                                "caption":"2019"
                             },
                             {
-                                "id":"disabled",
-                                "caption":"disabled",
-                                "disabled":true
+                                "id":"fy18",
+                                "caption":"2018"
                             },
                             {
-                                "id":"image",
-                                "caption":"image",
-                                "imageClass":"xui-icon-xui"
+                                "id":"fy17",
+                                "caption":"2017"
                             },
                             {
-                                "type":"split"
+                                "id":"fy16",
+                                "caption":"2016"
                             },
                             {
-                                "id":"checkbox 1",
-                                "caption":"checkbox 1",
-                                "type":"checkbox"
-                            },
-                            {
-                                "id":"checkbox 2",
-                                "caption":"checkbox 2",
-                                "type":"checkbox"
+                                "id":"fy15",
+                                "caption":"2015"
                             }
                         ],
                         "caption":"Previous"
