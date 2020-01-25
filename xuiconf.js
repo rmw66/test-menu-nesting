@@ -11,7 +11,7 @@
 
 // [[Page Appearance
 xui.ini.$PageAppearance = {
-    "theme":"electricity"
+    "theme":"darkblue"
 };
 // ]]Page Appearance
 // To set Font Icons CDN
