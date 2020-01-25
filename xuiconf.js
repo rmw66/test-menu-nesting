@@ -11,7 +11,7 @@
 
 // [[Page Appearance
 xui.ini.$PageAppearance = {
-    "theme":"webflat"
+    "theme":"electricity"
 };
 // ]]Page Appearance
 // To set Font Icons CDN
@@ -106,7 +106,6 @@ xui.$cache.data = {
 xui.constant = {
 };
 // ]]Constant Data
-
 
 // [[Develop Env Setting
 xui.ini.$DevEnv = {
