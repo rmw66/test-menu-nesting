@@ -28,18 +28,27 @@ xui.Class('App', 'xui.Module',{
                         "id":"menu-docs",
                         "sub":[
                             {
-                                "id":"normal",
-                                "caption":"normal"
+                                "id":"menu-about",
+                                "caption":"Overview"
                             },
                             {
-                                "id":"disabled",
-                                "caption":"disabled",
+                                "id":"menu-guidance",
+                                "caption":"Guidance"
+                            },
+                            {
+                                "id":"menu-justification",
+                                "caption":"Justification"
+                            },
+                            {
+                                "id":"menu-training",
+                                "caption":"Training",
                                 "disabled":true
                             },
                             {
                                 "id":"image",
                                 "caption":"image",
-                                "imageClass":"xui-icon-xui"
+                                "imageClass":"xui-icon-xui",
+                                "disabled":true
                             },
                             {
                                 "type":"split"
@@ -61,31 +70,39 @@ xui.Class('App', 'xui.Module',{
                         "id":"menu-data",
                         "sub":[
                             {
-                                "id":"normal",
-                                "caption":"normal"
+                                "id":"2020data",
+                                "caption":"2020 Data"
                             },
                             {
-                                "id":"disabled",
-                                "caption":"disabled",
+                                "id":"2019data",
+                                "caption":"2019 Data",
                                 "disabled":true
-                            },
-                            {
-                                "id":"image",
-                                "caption":"image",
-                                "imageClass":"xui-icon-xui"
                             },
                             {
                                 "type":"split"
                             },
                             {
-                                "id":"checkbox 1",
-                                "caption":"checkbox 1",
-                                "type":"checkbox"
-                            },
-                            {
-                                "id":"checkbox 2",
-                                "caption":"checkbox 2",
-                                "type":"checkbox"
+                                "id":"reports sub menu",
+                                "caption":"Reports",
+                                "add":"[Ctrl+R]",
+                                "sub":[
+                                    {
+                                        "id":"onboard",
+                                        "caption":"HR Onboard Report"
+                                    },
+                                    {
+                                        "id":"orgdetail",
+                                        "caption":"Organization Detail Report"
+                                    },
+                                    {
+                                        "id":"statuscode",
+                                        "caption":"Agency Summary Status Code Report"
+                                    },
+                                    {
+                                        "id":"orgcriteriacode",
+                                        "caption":"Organization Summary Criteria Code Report"
+                                    },
+                                ]
                             }
                         ],
                         "caption":"Data"
